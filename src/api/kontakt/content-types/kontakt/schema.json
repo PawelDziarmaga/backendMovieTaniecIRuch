@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "kontakts",
+  "info": {
+    "singularName": "kontakt",
+    "pluralName": "kontakts",
+    "displayName": "kontakt"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "AdresNazwa": {
+      "type": "string"
+    },
+    "AdresUlica": {
+      "type": "string"
+    },
+    "AdresMiasto": {
+      "type": "string"
+    },
+    "KontaktEmail": {
+      "type": "email"
+    },
+    "KontaktTelefon": {
+      "type": "string"
+    },
+    "Naglowek": {
+      "type": "string"
+    },
+    "CzyWidoczne": {
+      "type": "boolean"
+    },
+    "SpolecznoscFacebook": {
+      "type": "string"
+    },
+    "SpolecznoscInstagram": {
+      "type": "string"
+    },
+    "SpolecznoscYoutube": {
+      "type": "string"
+    },
+    "Wspolprace": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

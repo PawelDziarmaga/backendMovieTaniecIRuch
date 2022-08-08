@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "zajecias",
+  "info": {
+    "singularName": "zajecia",
+    "pluralName": "zajecias",
+    "displayName": "Zajecia"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Naglowek": {
+      "type": "string"
+    },
+    "NaglowekTaniec": {
+      "type": "string"
+    },
+    "NaglowekRuch": {
+      "type": "string"
+    },
+    "AkapitTaniec": {
+      "type": "text"
+    },
+    "AkapitRuch": {
+      "type": "text"
+    },
+    "CzyWidoczne": {
+      "type": "boolean"
+    }
+  }
+}

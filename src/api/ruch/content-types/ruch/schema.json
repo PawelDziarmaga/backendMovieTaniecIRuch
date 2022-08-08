@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ruches",
+  "info": {
+    "singularName": "ruch",
+    "pluralName": "ruches",
+    "displayName": "Ruch"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nazwa": {
+      "type": "string"
+    },
+    "Opis": {
+      "type": "text"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Nazwa"
+    },
+    "Zdjecie": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

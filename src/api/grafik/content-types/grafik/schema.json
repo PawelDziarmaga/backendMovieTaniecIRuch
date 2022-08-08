@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "grafiks",
+  "info": {
+    "singularName": "grafik",
+    "pluralName": "grafiks",
+    "displayName": "Grafik"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Naglowek": {
+      "type": "string"
+    },
+    "CzyWidoczne": {
+      "type": "boolean"
+    }
+  }
+}

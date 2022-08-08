@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "taniecs",
+  "info": {
+    "singularName": "taniec",
+    "pluralName": "taniecs",
+    "displayName": "Taniec",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nazwa": {
+      "type": "string"
+    },
+    "Opis": {
+      "type": "text"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Nazwa",
+      "required": true
+    },
+    "Zdjecie": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

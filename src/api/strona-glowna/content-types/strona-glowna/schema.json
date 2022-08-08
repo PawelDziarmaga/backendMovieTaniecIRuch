@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "strona_glownas",
+  "info": {
+    "singularName": "strona-glowna",
+    "pluralName": "strona-glownas",
+    "displayName": "StronaGlowna",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Naglowek": {
+      "type": "string"
+    },
+    "Aktualnosci": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ZdjecieWTle": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "AktualnosciWidoczne": {
+      "type": "boolean"
+    },
+    "TaniecWIdoczne": {
+      "type": "boolean"
+    },
+    "RuchWidoczne": {
+      "type": "boolean"
+    },
+    "FacebookWidoczne": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "onas_abouts",
+  "info": {
+    "singularName": "onas-about",
+    "pluralName": "onas-abouts",
+    "displayName": "OnasAbout"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Naglowek": {
+      "type": "string"
+    },
+    "CzyWidoczne": {
+      "type": "boolean"
+    },
+    "AkapitPierwszy": {
+      "type": "text"
+    },
+    "AkapitDrugi": {
+      "type": "text"
+    },
+    "AkapitTrzeci": {
+      "type": "string"
+    }
+  }
+}
