@@ -4,7 +4,8 @@
   "info": {
     "singularName": "zajecia",
     "pluralName": "zajecias",
-    "displayName": "Zajecia"
+    "displayName": "Zajecia",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -28,6 +29,26 @@
     },
     "CzyWidoczne": {
       "type": "boolean"
+    },
+    "TaniecIMG": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "RychIMG": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

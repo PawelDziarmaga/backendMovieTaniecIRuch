@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "nawigacjas",
+  "info": {
+    "singularName": "nawigacja",
+    "pluralName": "nawigacjas",
+    "displayName": "Nawigacja"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Elements": {
+      "type": "enumeration",
+      "enum": [
+        "One:",
+        "Two:",
+        "Three:",
+        "Four:",
+        "Five:"
+      ]
+    },
+    "Logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
