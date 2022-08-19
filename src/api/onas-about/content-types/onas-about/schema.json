@@ -4,7 +4,8 @@
   "info": {
     "singularName": "onas-about",
     "pluralName": "onas-abouts",
-    "displayName": "OnasAbout"
+    "displayName": "OnasAbout",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -25,6 +26,16 @@
     },
     "AkapitTrzeci": {
       "type": "string"
+    },
+    "Tlo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

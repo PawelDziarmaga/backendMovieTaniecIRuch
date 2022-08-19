@@ -4,32 +4,24 @@
   "info": {
     "singularName": "nawigacja",
     "pluralName": "nawigacjas",
-    "displayName": "Nawigacja"
+    "displayName": "Nawigacja",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "Elements": {
-      "type": "enumeration",
-      "enum": [
-        "One:",
-        "Two:",
-        "Three:",
-        "Four:",
-        "Five:"
-      ]
-    },
     "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

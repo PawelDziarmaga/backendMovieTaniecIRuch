@@ -24,14 +24,21 @@
       "required": true
     },
     "Zdjecie": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "DodatkowyOpis": {
+      "type": "text"
+    },
+    "KoncowyOpis": {
+      "type": "text"
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "ruch",
     "pluralName": "ruches",
-    "displayName": "Ruch"
+    "displayName": "Ruch",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -22,14 +23,21 @@
       "targetField": "Nazwa"
     },
     "Zdjecie": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "DodatkowyOpis": {
+      "type": "text"
+    },
+    "KoncowyOpis": {
+      "type": "text"
     }
   }
 }
